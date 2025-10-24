@@ -310,6 +310,7 @@ Whether I’m designing a poster for an event, crafting a carousel for Instagram
     </div>
   </div>
 </section><!-- /Resume Section -->
+
 <section id="portfolio" class="portfolio section light-background">
 
   <!-- Section Title -->
@@ -328,6 +329,8 @@ Whether I’m designing a poster for an event, crafting a carousel for Instagram
         <li data-filter=".filter-product">Projects</li>
         <li data-filter=".filter-branding">Branding</li>
         <li data-filter=".filter-books">UX/UI</li>
+        <li data-filter=".filter-video">Video Content</li>
+        <li data-filter=".filter-carousel">Featured</li>
       </ul>
 
       <!-- BUTTON TO FULL PORTFOLIO DETAILS -->
@@ -335,6 +338,50 @@ Whether I’m designing a poster for an event, crafting a carousel for Instagram
         <a href="portfolio-details.html" class="btn btn-portfolio-detail">
           <i class="bi bi-folder2-open me-1"></i> See Portfolio Details
         </a>
+      </div>
+
+      <!-- Carousel Section -->
+      <div class="carousel-section mb-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="carousel-container">
+          <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="carousel1.jpg" class="d-block w-100" alt="Featured Work 1">
+                <div class="carousel-caption">
+                  <h5>Featured Project 1</h5>
+                  <p>Professional branding and design work</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="carousel2.jpg" class="d-block w-100" alt="Featured Work 2">
+                <div class="carousel-caption">
+                  <h5>Featured Project 2</h5>
+                  <p>Social media campaign visuals</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="carousel3.jpg" class="d-block w-100" alt="Featured Work 3">
+                <div class="carousel-caption">
+                  <h5>Featured Project 3</h5>
+                  <p>Event promotion materials</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </div>
 
       <!-- Portfolio Items Grid -->
@@ -346,8 +393,27 @@ Whether I’m designing a poster for an event, crafting a carousel for Instagram
             <img src="ieee.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>IEEE Media Manager</h4>
-              <p>Posters  & IEEE events</p>
+              <p>Posters & IEEE events</p>
               <a href="ieee.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link" title="Preview"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 1: TikTok Content -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+          <div class="portfolio-content h-100">
+            <div class="video-thumbnail">
+              <img src="24.10.2025_23.51.41_REC.png" class="img-fluid" alt="TikTok Content">
+              <div class="video-play-icon">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h4>Video 1</h4>
+              <p>TikTok viral content with engaging transitions</p>
+              <a href="Download.mp4" data-gallery="portfolio-gallery-video" class="glightbox preview-link" title="Video 1 - TikTok Content">
+                <i class="bi bi-play-circle"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -364,6 +430,25 @@ Whether I’m designing a poster for an event, crafting a carousel for Instagram
           </div>
         </div>
 
+        <!-- Video 2: Social Media Reel -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+          <div class="portfolio-content h-100">
+            <div class="video-thumbnail">
+              <img src="24.10.2025_23.52.53_REC.png" class="img-fluid" alt="Social Media Reel">
+              <div class="video-play-icon">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h4>Video 2</h4>
+              <p>Instagram Reel with creative editing</p>
+              <a href="WhatsApp Video 2025-10-24 at 10.37.49 PM.mp4" data-gallery="portfolio-gallery-video" class="glightbox preview-link" title="Video 2 - Social Media Reel">
+                <i class="bi bi-play-circle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <!-- Shirt Branding -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
           <div class="portfolio-content h-100">
@@ -372,6 +457,25 @@ Whether I’m designing a poster for an event, crafting a carousel for Instagram
               <h4>Shirt Branding</h4>
               <p>Custom designs for printed shirts & personal apparel</p>
               <a href="TSHIRT.png" data-gallery="portfolio-gallery-branding" class="glightbox preview-link" title="Preview"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 3: Event Highlights -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video filter-app">
+          <div class="portfolio-content h-100">
+            <div class="video-thumbnail">
+              <img src="24.10.2025_23.53.01_REC.png" class="img-fluid" alt="Event Highlights">
+              <div class="video-play-icon">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h4>Video 3</h4>
+              <p>Event highlights with dynamic editing</p>
+              <a href="WhatsApp Video 2025-10-24 at 10.37.49 PM (1).mp4" data-gallery="portfolio-gallery-video" class="glightbox preview-link" title="Video 3 - Event Highlights">
+                <i class="bi bi-play-circle"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -388,6 +492,49 @@ Whether I’m designing a poster for an event, crafting a carousel for Instagram
           </div>
         </div>
 
+        <!-- Video 4: Brand Story -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video filter-branding">
+          <div class="portfolio-content h-100">
+            <div class="video-thumbnail">
+              <img src="24.10.2025_23.52.38_REC.png" class="img-fluid" alt="Brand Story">
+              <div class="video-play-icon">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h4>Video 4</h4>
+              <p>Brand storytelling video content</p>
+              <a href="WhatsApp Video 2025-10-24 at 10.36.10 PM.mp4" data-gallery="portfolio-gallery-video" class="glightbox preview-link" title="Video 4 - Brand Story">
+                <i class="bi bi-play-circle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Item 1 -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-carousel">
+          <div class="portfolio-content h-100">
+            <img src="522607247_1223007963175289_7837183070019307808_n.jpg"portfolio-info">
+              <h4>Featured Project 1</h4>
+              <p>Professional branding and design work</p>
+              <a href="522607247_1223007963175289_7837183070019307808_n.jpg" data-gallery="portfolio-gallery-carousel" class="glightbox preview-link" title="Featured Project 1"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Item 2 -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-carousel">
+          <div class="portfolio-content h-100">
+            <img src="522190851_1222809929861759_8800022492655153756_n.jpg" class="img-fluid" alt="Featured Work 2">
+            <div class="portfolio-info">
+              <h4>Featured Project 2</h4>
+              <p>Social media campaign visuals</p>
+              <a href="522190851_1222809929861759_8800022492655153756_n.jpg" data-gallery="portfolio-gallery-carousel" class="glightbox preview-link" title="Featured Project 2"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+      
       </div><!-- End portfolio grid -->
 
     </div>
